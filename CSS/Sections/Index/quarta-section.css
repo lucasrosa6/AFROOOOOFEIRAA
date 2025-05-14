@@ -1,0 +1,109 @@
+/* Quarta Section */
+#quarta-section {
+    background: var(--fundo-ceu-azul);
+    width: 100%;
+    height: 50vw;
+    overflow: hidden;
+}
+
+/* Box Principal */
+.box-principal-agricultor {
+    width: 100%;
+    height: 50vw;
+    position: relative;
+}
+
+/* Fundo Terra */
+.box-fundo-terra {
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    position: absolute;
+}
+
+.box-fundo-terra img {
+    width: 100%;
+    user-select: none;
+}
+
+/* Agricultor */
+.box-agricultor {
+    width: 37vw;
+    height: 37vw;
+    left: 10vw;
+    top: 10vw;
+    position: absolute;
+}
+
+.box-agricultor img {
+    width: 100%;
+    user-select: none;
+}
+
+/* Sol */
+.box-sol {
+    width: 25vw;
+    height: 25vw;
+    left: 80vw;
+    top: -7vw;
+    position: absolute;
+}
+
+.box-sol img {
+    width: 100%;
+    animation: girar 15s linear infinite;
+    user-select: none;
+    pointer-events: none;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Palavra Lateral */
+.box-palavra-lateral-do-agricultor {
+    width: 50vw;
+    height: 50vw;
+    left: 40vw;
+    top: 10vw;
+    position: absolute;
+}
+
+.box-palavra-lateral-do-agricultor img {
+    width: 100%;
+    user-select: none;
+}
+
+/* Botão - Sobre Agricultores */
+.sobre-nossos-agricultores {
+    background: var(--verde-saturado);
+    border-radius: 10vw;
+    position: absolute;
+    left: 55vw;
+    top: 30vw;
+    width: 20vw;
+    height: 7vw;
+    display: flex;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.sobre-nossos-agricultores:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 5px #ffffff);
+    cursor: pointer;
+}
+
+.sobre-nossos-agricultores a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: auto;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: var(--font-principal);
+}

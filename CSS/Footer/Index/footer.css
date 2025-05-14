@@ -1,0 +1,88 @@
+/* Rodapé */
+#rodape {
+    background: #d38b5d;
+    position: relative;
+}
+
+/* Fundo do Rodapé */
+.box-fundo-footer {
+    width: 100%;
+    height: 40vw;
+}
+
+.box-fundo-footer img {
+    width: 100%;
+    height: 40vw;
+    user-select: none;
+    z-index: 1;
+}
+
+/* Logo no Rodapé */
+.box-logo-footer {
+    width: 50vw;
+    height: 20vw;
+    position: absolute;
+    top: 6vw;
+    left: 25vw;
+}
+
+.box-logo-footer img {
+    width: 100%;
+    height: 20vw;
+    user-select: none;
+}
+
+/* Título da Lista de Links */
+.box-titulo-lista-links {
+    position: absolute;
+    top: 26vw;
+    left: 40vw;
+}
+
+.box-titulo-lista-links h3 {
+    color: #ffffff;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: var(--font-principal);
+}
+
+/* Lista de Links */
+.box-lista-links {
+    position: absolute;
+    top: 30vw;
+    left: 38vw;
+    display: flex;
+}
+
+.box-lista-links ul {
+    padding: 1vw;
+    text-align: center;
+}
+
+.box-lista-links a {
+    color: #ffffff;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: var(--font-principal);
+}
+
+.box-lista-links a:hover {
+    color: var(--verde-cinza);
+    font-size: 2vw;
+    font-family: var(--font-principal);
+}
+
+/* Copyright */
+#copyright {
+    width: 100%;
+    text-align: center;
+    background: var(--marrom);
+}
+
+#copyright p {
+    color: var(--marrom-fraco);
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 1vw 0;
+    font-family: var(--font-principal);
+}
